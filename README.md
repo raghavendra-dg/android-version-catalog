@@ -1,4 +1,4 @@
-#Version Catalog for android apps
+# Version Catalog for android apps
 ![Version](https://img.shields.io/maven-central/v/io.github.raghavendra-dg/version-catalog-android?style=flat-square)
 
 ## Usage
