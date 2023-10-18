@@ -62,7 +62,7 @@ test-express-core = { group = "androidx.test.espresso", name = "espresso-core", 
 logger-timer = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
 
 [plugins]
-android-koltin = { id = "org.jetbrains.kotlin.android", version.ref = "androidKoltinPlugin" }
+android-kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "androidKoltinPlugin" }
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
 android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }

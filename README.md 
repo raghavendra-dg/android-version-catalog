@@ -22,7 +22,12 @@ After the sync gradle create accessors from dependencies like:
 
 ```kotlin
 plugins {
-    alias(libs.plugins.kotlinMultiplatform)
-    alias(libs.plugins.androidLibrary)
+    alias(libs.plugins.android.kotlin)
+    alias(libs.plugins.android.application)
+}
+
+dependency{
+    implementation(libs.androidx.startup)
+    testImplementation(libs.junit4)
 }
 ```
