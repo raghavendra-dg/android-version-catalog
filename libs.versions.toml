@@ -18,6 +18,7 @@ androidGradlePlugin = "8.1.0-alpha04"
 androidKoltinPlugin = "1.8.21"
 composeBom = "2023.01.00"
 timber = "5.0.1"
+koin = "3.5.0"
 
 [libraries]
 junit4 = { group = "junit", name = "junit", version.ref = "junit4" }
@@ -44,15 +45,18 @@ hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref
 hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
 hilt-testing = { group = "com.google.dagger", name = "hilt-android-testing", version.ref = "hilt" }
 hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+kion-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koin" }
 ktor-client-core = { group = "io.ktor", name = "ktor-client-core", version.ref = "ktor" }
 ktor-client-mock = { group = "io.ktor", name = "ktor-client-mock", version.ref = "ktor" }
 ktor-client-android = { group = "io.ktor", name = "ktor-client-android", version.ref = "ktor" }
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinxSerialization" }
+ktor-client-auth = { group = "io.ktor", name = "ktor-client-auth", version.ref = "kotlinxSerialization" }
+ktor-client-logging = { group = "io.ktor", name = "ktor-client-logging", version.ref = "kotlinxSerialization" }
 ktor-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktor" }
 ktor-serialization-json = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version.ref = "ktor" }
 kotlinx-corooutine-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinxCoroutine" }
 kotlinx-corooutine-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "kotlinxCoroutine" }
 kotlinx-corooutine-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinxCoroutine" }
-kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinxSerialization" }
 test-ext = { group = "androidx.test.ext", name = "junit", version.ref = "ext-junit" }
 test-express-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso" }
 logger-timer = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
