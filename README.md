@@ -27,7 +27,7 @@ plugins {
 }
 
 dependency{
-    implementation(libs.androidx.startup)
-    testImplementation(libs.junit4)
+    implementation(libs.ui)
+    implementation(libs.material3)
 }
 ```
