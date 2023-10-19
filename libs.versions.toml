@@ -17,6 +17,7 @@ kotlinxCoroutine = "1.7.3"
 koin = "3.5.0"
 hilt = "2.46.1"
 hiltNavigationCompose = "1.0.0"
+coroutine = "1.7.3"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -55,6 +56,8 @@ hilt-testing = { group = "com.google.dagger", name = "hilt-android-testing", ver
 hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
 koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koin" }
 koin-android = { group = "io.insert-koin", name = " koin-android", version.ref = "koin" }
+coroutine-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutine" }
+coroutine-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutine" }
 
 [plugins]
 android-library = { id = "com.android.library", version.ref = "agp" }
