@@ -1,13 +1,13 @@
 [versions]
-agp = "8.3.0-alpha01"
-kotlin = "1.8.10"
+agp = "8.3.0-alpha03"
+kotlin = "1.9.10"
 core-ktx = "1.12.0"
 junit = "4.13.2"
 androidx-test-ext-junit = "1.1.5"
 espresso-core = "3.5.1"
 lifecycle-runtime-ktx = "2.6.2"
 activity-compose = "1.8.0"
-compose-bom = "2023.03.00"
+compose-bom = "2023.10.01"
 appcompat = "1.6.1"
 material = "1.9.0"
 room = "2.6.0"
@@ -18,6 +18,7 @@ koin = "3.5.0"
 hilt = "2.46.1"
 hiltNavigationCompose = "1.0.0"
 coroutine = "1.7.3"
+android-gradle = "7.4.2"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -58,6 +59,8 @@ koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koin"
 koin-android = { group = "io.insert-koin", name = " koin-android", version.ref = "koin" }
 coroutine-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutine" }
 coroutine-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutine" }
+kotlinGradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+androidGradlePlugin = { module = "com.android.tools.build:gradle", version.ref = "android-gradle" }
 
 [plugins]
 android-library = { id = "com.android.library", version.ref = "agp" }
